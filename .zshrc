@@ -136,3 +136,10 @@ ic() {
 }
 
 alias ngrok="~/Documents/bin/ngrok"
+
+# Interactive shell startup scripts {{{
+# ==============================================================================
+#    if [[ $- == *i* && $0 == '/bin/zsh' ]]; then
+        ~/.dotfiles/scripts/login.sh
+#    fi
+# }}}
